@@ -1,25 +1,25 @@
 import java.util.Scanner;
+//입력된 값이 80 ~ 90 이면 "Pass"
 public class Exam_19 {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-		System.out.print("점수 입력");
-		int val = scn.nextInt();
+		System.out.print("점수입력:");
+		int score = scn.nextInt();
 		
-		String str="";
-		if(val>=80) {
-			if(val<=90) {
-				//System.out.println("80~90 Pass")
-				str = "80~90 pass";
-			}else {
-				//System.out.println("80이상 90 초과 No");
-				str = "80이상 90 초과 No";
-			}
-		}else{
-			//System.out.println("80미만 No");
-			str="80미만 No";
+		String pass="";
+		if(score>=80 && score<=90) {
+			pass="Pass";
 		}
-		System.out.println(val + "점수의 결과는"+ str);
+		System.out.println("result=" + pass);
+		//score=95
+		if(score>=80) {
+			if(score<=90) {
+				pass="Pass";
+			}
+		}
+		
+		
 
 	}
 

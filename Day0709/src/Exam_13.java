@@ -1,19 +1,23 @@
+//키보드로 정수를 입력 입력된 정수가 80이상 "합격"
 
+import java.util.Scanner;
 public class Exam_13 {
 
 	public static void main(String[] args) {
-		int a=10, b=20, c=30;
-		int a1=10;
-		int b1=20;
-		int c1=30;
+		Scanner scn = new Scanner(System.in);
 		
-		if(a>=70) {
-			int b=30;
-		}else{
-			int b=30;
+		System.out.print("점수입력");
+		int score = scn.nextInt();
+		
+		// 조건 연산자를 이용한 경우
+		String pass = (score>=80)?"합격":"";
+		System.out.println(score + " : " + pass);
+		
+		//if()
+		String pass2="";
+		if(score>=80) {
+			pass2="합격";
 		}
-		
-
+		System.out.println(score + " : " + pass2);
+		}
 	}
-
-}
