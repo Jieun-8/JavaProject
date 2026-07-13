@@ -1,4 +1,4 @@
-//진법변환(10 -> 2진수)
+//진법변환(10 -> 2진수) 
 
 import java.util.Scanner;
 

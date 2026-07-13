@@ -11,7 +11,7 @@ public class Exam_07 {
 		for(int x=1; x<=dec; x++) {
 			if(dec % x == 0) {
 				System.out.println(x);
-			}
+			} 
 		}
 		
 		System.out.print(dec + "의 약수 : ");

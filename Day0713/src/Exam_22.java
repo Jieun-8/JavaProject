@@ -1,4 +1,4 @@
-//행열
+//행열 
 public class Exam_22 {
 	public static void main(String[] args) {
 		//5 * 5 행열

@@ -1,4 +1,4 @@
-//while(), do ~ while() 차이점
+//while(), do ~ while() 차이점 
 public class Exam_14 {
 	public static void main(String[] args) {
 		

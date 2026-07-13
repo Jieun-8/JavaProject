@@ -1,4 +1,4 @@
-//1 ~ 10
+//1 ~ 10 
 public class Exam_12 {
 	public static void main(String[] args) {
 		//1 ~ 10 정수 출력 후 합계

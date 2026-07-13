@@ -6,7 +6,7 @@ public class Exam_05 {
 		for(int i=1; i<=10; i++) {
 			System.out.println(i);
 			s=s+i;//s+=i;
-		}
+		} 
 		System.out.println("1 ~ 10 합 : " + s);
 		
 		//1 ~ 10 홀수 출력 후 홀수 합

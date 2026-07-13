@@ -26,7 +26,7 @@ public class Exam_01 {
 		}else if(na==14) {
 			con = "E";
 		}else if(na==15) {
-			con = "F";
+			con = "F"; 
 		}else {
 			con = na+"";//문자열 정수로 int aa = Integer.parseInt("1")
 		}

@@ -7,7 +7,7 @@ public class Exam_04 {
 		int i;
 		for(i=1; i<=5; i++) {//i=1,2,3,4,5,6
 			System.out.println(i + "나종민");
-		}
+		} 
 		System.out.println("i=" + i);//6
 		
 		int j;

@@ -9,7 +9,7 @@ public class Exam_02 {
 		if(dec<1 || dec > 15) {
 			System.out.println("입력오류");
 			System.exit(1);
-		}
+		} 
 		//정상입력
 		int mok = dec / 16;//몫
 		int na = dec % 16;//나머지

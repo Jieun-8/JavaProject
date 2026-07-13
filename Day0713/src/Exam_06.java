@@ -7,7 +7,7 @@ public class Exam_06 {
 		int tot = 0;//전체합
 		for(int i=1; i<11; i++) { // i = i + 2
 			System.out.println(i);
-			
+			  
 			if(i%2==1) {
 				s += i; // s = s + i; //0+1, 1+1, 2
 			}else {

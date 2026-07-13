@@ -2,7 +2,7 @@
 //50000,10000,5000,1000,500,100,50,10,5,1
 //176874 => 
 /* 176874/50000 -> 3 -> 26874
- * 
+ *  
  */
 public class Exam_08 {
 	public static void main(String[] args) {

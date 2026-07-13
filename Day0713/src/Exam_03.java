@@ -8,7 +8,7 @@ public class Exam_03 {
 		int k = scn.nextInt();//국어
 		int e = scn.nextInt();//영어
 		int m = scn.nextInt();//수학
-		
+		 
 		//총점, 평균
 		int t = k + e + m;
 		double a = t / 3.;
